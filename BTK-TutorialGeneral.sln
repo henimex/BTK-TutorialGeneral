@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTK-TutorialGeneral", "BTK-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{D3608D59-18E9-46EE-83AD-D96D007AD803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceKullanimi", "InterfaceKullanimi\InterfaceKullanimi.csproj", "{EADA001F-1029-4080-BF3F-9189677DAB23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D3608D59-18E9-46EE-83AD-D96D007AD803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3608D59-18E9-46EE-83AD-D96D007AD803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3608D59-18E9-46EE-83AD-D96D007AD803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADA001F-1029-4080-BF3F-9189677DAB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADA001F-1029-4080-BF3F-9189677DAB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADA001F-1029-4080-BF3F-9189677DAB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADA001F-1029-4080-BF3F-9189677DAB23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
