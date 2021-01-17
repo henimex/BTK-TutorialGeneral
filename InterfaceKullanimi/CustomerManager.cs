@@ -8,7 +8,8 @@ namespace InterfaceKullanimi
     {
         public void Add(ICustomerDal customerDal)
         {
-            customerDal.Add();
+            customerDal.Add();//SADSADFDSSDFSD
+            //WORK CLONE TEST
         }
     }
 }
