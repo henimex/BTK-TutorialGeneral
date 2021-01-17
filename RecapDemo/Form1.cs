@@ -54,7 +54,7 @@ namespace RecapDemo
                     //flowLayoutPanel1.Controls.Add(buttons[i, j]);
                     this.Controls.Add(buttons[i, j]);
                 }
-                //top += height + margin;
+                top += height + margin;
                 left = 0;
             }
         }
