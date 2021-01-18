@@ -61,9 +61,9 @@ namespace InterfaceKullanimi
                 Adress = "Eskişehir"
             };
 
-            pm.NewAdd(student2); //IPerson dan enkapsule edilen hersey bu metodda kullanılabilir
+            pm.NewAdd(student2); //IPerson dan implementasyon edilen hersey bu metodda kullanılabilir
             pm.NewAdd(customer2);
-            //pm.Add(student2); // İkiside IPersondan enkapsule olsa bile sadece istenilen sınıftan veri gönderilebilir.
+            //pm.Add(student2); // İkiside IPersondan implemantasyon olsa bile sadece istenilen sınıftan veri gönderilebilir.
         }
 
         interface IPerson
