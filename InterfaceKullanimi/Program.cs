@@ -24,6 +24,19 @@ namespace InterfaceKullanimi
 
             CustomerManager cm3 = new CustomerManager();
             cm3.Add(new SqlServerCustomerDal());
+
+
+            //aynı anda hem oracle hemde sql e veri gonderilecek ise 
+            ICustomerDal[] customerDals = new ICustomerDal[2]
+            {
+                new SqlServerCustomerDal(),
+                new OracleDBCustomerDal()
+            };
+
+            foreach (var item in customerDals)
+            {
+                item.Add();
+            }
         }
 
         private static void InterfaceIntro()
