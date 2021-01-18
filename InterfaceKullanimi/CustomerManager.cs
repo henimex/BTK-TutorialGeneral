@@ -10,6 +10,7 @@ namespace InterfaceKullanimi
         {
             customerDal.Add();
             //deneme
+            //deneme onaylandı
         }
     }
 }
