@@ -9,8 +9,6 @@ namespace InterfaceKullanimi
         public void Add(ICustomerDal customerDal)
         {
             customerDal.Add();
-            //deneme
-            //deneme onaylandı
         }
     }
 }
