@@ -20,5 +20,6 @@ namespace ConstructuresNedir
             Console.WriteLine("{0} message",_entity);
         }
 
+
     }
 }

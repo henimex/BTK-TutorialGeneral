@@ -16,6 +16,7 @@ namespace ConstructuresNedir
         public void Add()
         {
             Console.WriteLine("Added");
+            Message(); //BaseClass ın constructordan parametre alan metodu
         }
     }
 }

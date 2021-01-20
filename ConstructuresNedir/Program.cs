@@ -31,6 +31,14 @@ namespace ConstructuresNedir
             PersonManager pm = new PersonManager("Managment Dep");
             pm.Add();
 
+            
+            int no = Teacher.numara = 6;
+            Console.WriteLine(no);
+
+            Utilities.validate("tamaamlandı");
+            //standart claass içinden statick metod direk cagrilip kullanılabilir
+            //ama aynı class icerisinde standart bir metod var ise ornekleme yapmak gereklidir.
+            //tam terssi olayı denemeye calıstıgımda olmadı belki bi yontemi vardır.
 
             Console.ReadLine();
         }

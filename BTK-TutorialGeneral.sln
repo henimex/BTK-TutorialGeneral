@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecapDemo2", "RecapDemo2\RecapDemo2.csproj", "{2EFDD0E5-BACE-44FE-893D-DF2A4F01498C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesModDemo", "AccesModDemo\AccesModDemo.csproj", "{89F23CBE-0790-453F-A37C-C2F5E07FC8F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccesModDemo", "AccesModDemo\AccesModDemo.csproj", "{89F23CBE-0790-453F-A37C-C2F5E07FC8F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifierDemo2", "ModifierDemo2\ModifierDemo2.csproj", "{885586FF-0EFA-41CF-9F62-04CC07F36349}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACMod_Use", "ACMod_Use\ACMod_Use.csproj", "{AAD4D896-D679-4E06-A723-67F7219360A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructuresNedir", "ConstructuresNedir\ConstructuresNedir.csproj", "{FFFAC1AD-37A5-41FE-810A-BA26BABB61E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValuesReferences", "ValuesReferences\ValuesReferences.csproj", "{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{FFFAC1AD-37A5-41FE-810A-BA26BABB61E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFFAC1AD-37A5-41FE-810A-BA26BABB61E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFFAC1AD-37A5-41FE-810A-BA26BABB61E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

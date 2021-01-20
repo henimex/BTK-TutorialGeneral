@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FFFAC1AD-37A5-41FE-810A-BA26BABB61E9}</ProjectGuid>
+    <ProjectGuid>{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConstructuresNedir</RootNamespace>
-    <AssemblyName>ConstructuresNedir</AssemblyName>
+    <RootNamespace>ValuesReferences</RootNamespace>
+    <AssemblyName>ValuesReferences</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseClass.cs" />
-    <Compile Include="ConManager.cs" />
-    <Compile Include="DatabaseManager.cs" />
-    <Compile Include="ILogger.cs" />
-    <Compile Include="PersonManager.cs" />
-    <Compile Include="Products.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
