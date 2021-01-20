@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace AbstractClasses
 {
     class Program
@@ -43,4 +44,6 @@ namespace AbstractClasses
             Console.WriteLine("Deleted by sql");
         }
     }
+
+    class
 }
