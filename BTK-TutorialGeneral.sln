@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructuresNedir", "Const
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValuesReferences", "ValuesReferences\ValuesReferences.csproj", "{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{70B219DA-FD17-4DC7-9F6E-99B0B31FB573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21D8BB17-4BB2-4EB3-A544-1CDBF33E0CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B219DA-FD17-4DC7-9F6E-99B0B31FB573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B219DA-FD17-4DC7-9F6E-99B0B31FB573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B219DA-FD17-4DC7-9F6E-99B0B31FB573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B219DA-FD17-4DC7-9F6E-99B0B31FB573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
