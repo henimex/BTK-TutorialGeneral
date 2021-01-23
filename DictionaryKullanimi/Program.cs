@@ -19,13 +19,10 @@ namespace DictionaryKullanimi
 
             foreach (var item in plakalar)
             {
-                Console.WriteLine(item.Key);
+                Console.WriteLine("Plaka Numarası \t: {0} \t Şehir Adı \t: {1}",item.Key,item.Value);
             }
-
-            foreach (var x in plakalar)
-            {
-                Console.WriteLine(x.Value);
-            }
+            
+            Console.ReadLine();
         }
     }
 }
