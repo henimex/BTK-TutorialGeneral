@@ -28,6 +28,14 @@ namespace EntityFrameworkDemo
             dataGridView1.DataSource = productDal.GetAll();
         }
 
+        private void SearchProducts(string key)
+        {
+            //dataGridView1.DataSource = productDal.GetAll().Where(p=>p.Name.ToLower().Contains(key.ToLower())).ToList();
+            var result = productDal.GetbyName(key);
+            dataGridView1.DataSource = result;
+
+        }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             productDal.Add(new Product
@@ -61,7 +69,7 @@ namespace EntityFrameworkDemo
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            DialogResult onay =  MessageBox.Show("Silmek İstediğinizden Eminmisiniz.","Silme Onayı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            DialogResult onay = MessageBox.Show("Silmek İstediğinizden Eminmisiniz.", "Silme Onayı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (onay == DialogResult.Yes)
             {
                 //Silme Onayı
@@ -77,6 +85,11 @@ namespace EntityFrameworkDemo
                 MessageBox.Show("Silme işlemi iptal edildi. Madem silmeyecektin neyine bastın mubarek.");
                 LoadProducts();
             }
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            SearchProducts(txtSearch.Text);
         }
     }
 }
