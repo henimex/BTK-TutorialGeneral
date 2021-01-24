@@ -44,6 +44,4 @@ namespace AbstractClasses
             Console.WriteLine("Deleted by sql");
         }
     }
-
-    class
 }
