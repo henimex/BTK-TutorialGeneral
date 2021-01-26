@@ -31,7 +31,7 @@ namespace Events
 
         private static void Gsm_StockControlEvent()
         {
-            Console.WriteLine("Gsm Stock In Critick Stock");
+            Console.WriteLine("Gsm Stock In Critic Stock");
         }
     }
 }
