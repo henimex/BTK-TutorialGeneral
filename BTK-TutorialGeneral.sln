@@ -41,7 +41,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetDemo", "AdoNetDemo\Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{597F4A49-F5B3-4B43-94CB-C50F015CB523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo2", "InterfaceDemo2\InterfaceDemo2.csproj", "{AFBE5137-C93F-4F35-B528-35B73AF31936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo2", "InterfaceDemo2\InterfaceDemo2.csproj", "{AFBE5137-C93F-4F35-B528-35B73AF31936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesKullanimi", "AttributesKullanimi\AttributesKullanimi.csproj", "{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{AFBE5137-C93F-4F35-B528-35B73AF31936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFBE5137-C93F-4F35-B528-35B73AF31936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFBE5137-C93F-4F35-B528-35B73AF31936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
