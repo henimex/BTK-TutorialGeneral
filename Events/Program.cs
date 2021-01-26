@@ -10,6 +10,7 @@ namespace Events
     {
         //Mutlaka Lazım olacak bir yapı. İyice Sindirilmesi Katmanlı Mimaride Tasarımı Araştırılmalı.
         //Bunu bilmeden önce ben bu olayı timer ile yapmaya calısırdım ki oda cok fazla kaynak yerdi diye düşünüyorum.
+        //Counter
         static void Main(string[] args)
         {
             Product hardDisk= new Product(50);
