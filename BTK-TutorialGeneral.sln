@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesKullanimi", "Attr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{19BBB780-132A-4FBD-9F36-66E10A73C697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncKullanimi", "FuncKullanimi\FuncKullanimi.csproj", "{8CB7F133-4A6F-4335-B1B1-865179EAA158}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BBB780-132A-4FBD-9F36-66E10A73C697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BBB780-132A-4FBD-9F36-66E10A73C697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BBB780-132A-4FBD-9F36-66E10A73C697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BBB780-132A-4FBD-9F36-66E10A73C697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB7F133-4A6F-4335-B1B1-865179EAA158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB7F133-4A6F-4335-B1B1-865179EAA158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB7F133-4A6F-4335-B1B1-865179EAA158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB7F133-4A6F-4335-B1B1-865179EAA158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
