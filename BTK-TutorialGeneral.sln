@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo2", "Interface
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesKullanimi", "AttributesKullanimi\AttributesKullanimi.csproj", "{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBE66FA1-45EB-4674-9694-E6AB9FDA3170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B2FC7E-C163-4105-8D3C-00AFCCE4461B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
